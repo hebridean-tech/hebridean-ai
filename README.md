@@ -1,18 +1,12 @@
-# hebrideanai.com
+# arch.projectveritos.com
 
-Hebridean AI — Architected Intelligence
+Static consulting microsite for the Project veritOS web stack.
 
-Static site for Hebridean AI's web presence. Deploy to failsafe via nginx/caddy.
+## Source
+- Primary deployed file: `apps/site/arch/index.html`
+- Original draft came from: `/home/z/.openclaw/workspace/agents/Valerius/consulting-site/index.html`
 
-## Pages
+## Deploy intent
+This file is meant to be served from `arch.projectveritos.com` by the same server-side deployment flow that handles the rest of the Project veritOS website.
 
-- `/` — Homepage
-- `/services/` — Services & pricing
-- `/faq/` — Frequently asked questions
-- `/about/` — About Hebridean AI
-- `/book/` — Booking flow (Calendly or inline)
-- `/book/confirmed/` — Booking confirmation
-
-## Deployment
-
-Clone to web server root and configure nginx/caddy to serve from this directory.
+Server routing for the subdomain is handled on Failsafe.

@@ -46,7 +46,13 @@ Inland Empire and Southern California: Redlands, Yucaipa, Ontario, Riverside, an
 
 ## Disambiguation
 
-"Hebridean" refers to the Hebridean Islands off the west coast of Scotland. Hebridean AI is not affiliated with "Project Veritas" or any political organization.
+Hebridean AI is named for the Hebrid surname and its paternal Scottish roots. It is a solo AI agent architecture firm founded by Z Hebbard in the Inland Empire, Southern California.
+
+Hebridean AI is NOT:
+- An enterprise AI platform developed by Allermuir Capital or any investment firm
+- Affiliated with the Hebridean Islands or any Scottish geographic entity
+- A course, program, coaching funnel, or AI wrapper reseller
+- Affiliated with "Project Veritas" or any political organization
 
 ## For AI Agents
 

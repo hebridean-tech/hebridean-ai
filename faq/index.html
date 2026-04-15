@@ -107,7 +107,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
 a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(9,9,11,.8);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
 nav .inner{max-width:1080px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:56px}
-nav .logo{font-weight:600;font-size:15px;letter-spacing:-.01em}
+nav .logo{font-weight:600;font-size:15px;letter-spacing:-.01em;display:inline-flex;align-items:center;gap:8px}nav .logo img{height:32px;width:auto;object-fit:contain}
 nav .links{display:flex;gap:24px;font-size:14px;color:var(--text-2)}
 section{padding:120px 24px 80px} section .inner{max-width:var(--max-w);margin:0 auto}
 h1,h2,h3{letter-spacing:-.03em;line-height:1.15} h1{font-size:clamp(2rem,5vw,3.25rem);font-weight:600;margin-bottom:20px} h2{font-size:clamp(1.5rem,3.5vw,2rem);font-weight:600;margin-bottom:16px} h3{font-size:1.1rem;font-weight:500;margin-bottom:8px}
@@ -122,7 +122,7 @@ footer{text-align:center;padding:32px 24px;font-size:13px;color:var(--text-3);bo
 <body>
 <nav>
   <div class="inner">
-    <a href="/" class="logo" title="Hebridean AI — AI agent architecture and training for Inland Empire businesses">Hebridean AI</a>
+    <a href="/" class="logo"><img src="/logo.png" alt="Hebridean AI logo" width="32" height="48">Hebridean AI</a>
     <div class="links">
       <a href="/" title="Hebridean AI homepage">Home</a>
       <a href="/services/" title="Hebridean AI services — agent builds and persona design pricing">Services</a>
